@@ -1,1 +1,25 @@
 @import "tailwindcss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100vw;
+  height: 100vh;
+  background: #ffffff;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  aspect-ratio: 9 / 20;
+  margin: 0 auto;
+  overflow: hidden;
+}

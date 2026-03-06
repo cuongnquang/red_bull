@@ -8,7 +8,7 @@ export default function PlayerInfoPage() {
             navigate("/verify-otp");
     };
     return (
-        <>s
+        <>
         <Header logoSize="large"/>
         <div className="mt-10 flex flex-col items-center p-7 w-full text-justify">
             <input type="text" placeholder="NHẬP HỌ VÀ TÊN" className="bg-blue-700 text-white placeholder:text-gray-200 border-2 border-black text-[25px] h-15 text-left placeholder:text-center placeholder:opacity-100 p-5 w-full"/>
