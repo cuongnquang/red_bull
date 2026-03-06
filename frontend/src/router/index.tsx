@@ -4,9 +4,10 @@ import ConfirmInfoPage from '../pages/ConfirmInfoPage';
 import EnterPhonePage from '../pages/EnterPhonePage';
 import GamePage from '../pages/GamePage';
 import PlayerInfoPage from '../pages/PlayerInfoPage';
-import PrizeResultPage from '../pages/PrizeResultPage';
+import PrizeResultPage from '../pages/LuckySpinResultPage';
 import SpinWheelPage from '../pages/SpinWheelPage';
 import VerifyOtpPage from '../pages/VerifyOtpPage';
+import TotalRewardsPage from '../pages/TotalRewardsPage';
 
 const AppRouter = () => {
   return (
@@ -18,7 +19,8 @@ const AppRouter = () => {
       <Route path="/confirm-info" element={<ConfirmInfoPage />} />
       <Route path="/game" element={<GamePage />} />
       <Route path="/spin-wheel" element={<SpinWheelPage />} />
-      <Route path="/prize-result" element={<PrizeResultPage />} />
+      <Route path="/lucky-spin-result" element={<PrizeResultPage />} />
+      <Route path='/total-rewards' element={<TotalRewardsPage />} />
     </Routes>
   );
 };

@@ -20,13 +20,13 @@ export default function VerifyOtpPage() {
                     label="Xác nhận" 
                     onClick={handleAccept}
                     type="next"
-                    className="bottom-60"
+                    className="bottom-50"
                 />
                 <UIButton 
                     label="Quay trở lại" 
                     onClick={handleBack}
                     type="back"
-                    className="bottom-45"
+                    className="bottom-30"
                 />
             </div>
         </>    
