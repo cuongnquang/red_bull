@@ -20,7 +20,7 @@ export default function LuckySpinResultPage() {
                     label="Tiếp tục" 
                     onClick={handleAccpet}
                     type="next"
-                    className="bottom-20"
+                    className="mt-40"
                 />
             </div>
         </>   

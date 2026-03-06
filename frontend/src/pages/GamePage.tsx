@@ -21,7 +21,7 @@ export default function GamePage() {
                 <div className="w-20 h-20 bg-green-500 "></div>
                 <div className="w-20 h-20 bg-red-500"></div>
             </div>
-            <button className="w-25 h-25 rounded-full bg-yellow-500" onClick={handleSpinWheel}></button>
+            <button className="w-25 h-25 rounded-full bg-yellow-500 mb-20" onClick={handleSpinWheel}></button>
         </div>
         </>  
     )

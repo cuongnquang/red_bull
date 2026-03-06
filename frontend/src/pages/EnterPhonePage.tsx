@@ -19,13 +19,13 @@ export default function EnterPhonePage() {
                     label="Tiếp tục" 
                     onClick={handleContinue}
                     type="next"
-                    className="bottom-50"
+                    className="mt-30"
                 />
                 <UIButton 
                     label="Quay trở lại" 
                     onClick={handleBack}
                     type="back"
-                    className="bottom-30"
+                    className="mt-5"
                 />
             </div>
         </>   

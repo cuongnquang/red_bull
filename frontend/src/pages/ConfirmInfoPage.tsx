@@ -18,7 +18,7 @@ export default function ConfirmInfoPage() {
                             label="Xác nhận" 
                             onClick={handleContinue}
                             type="next"
-                            className="bottom-10"
+                            className="mt-50"
                         />
         </div>
         </>  

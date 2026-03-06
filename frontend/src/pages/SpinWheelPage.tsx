@@ -18,7 +18,7 @@ export default function SpinWheelPage() {
                 label="Tiếp tục" 
                 onClick={handleSpinWheel}
                 type="next"
-                className="bottom-20"
+                className="mt-20"
             />
         </div>
         </>    

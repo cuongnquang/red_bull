@@ -24,7 +24,7 @@ export default function TotalRewardsPage() {
                 label="Xác nhận" 
                 onClick={handleAccept}
                 type="next"
-                className="bottom-10"
+                className="-mt-10"
                 />
             </div>
         </>   
