@@ -10,7 +10,7 @@ export default function LuckySpinResultPage() {
     return (
         <>
             <Header logoSize="small"/>
-            <div className="flex flex-col mt-40 gap-10 p-5 items-center text-center">
+            <div className="flex flex-col mt-10 gap-10 p-5 items-center text-center">
                 <p className="text-3xl font-bold text-blue-500">CHÚC MỪNG BẠN ĐÃ NHẬN ĐƯỢC</p>
                 <p className="text-3xl font-bold text-red-500"><a className="text-green-500">1 </a>LON REDBULL EXTRA</p>
                 <div>
@@ -20,7 +20,7 @@ export default function LuckySpinResultPage() {
                     label="Tiếp tục" 
                     onClick={handleAccpet}
                     type="next"
-                    className="mt-40"
+                    className="mt-30"
                 />
             </div>
         </>   

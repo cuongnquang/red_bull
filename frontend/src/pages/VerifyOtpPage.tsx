@@ -13,7 +13,7 @@ export default function VerifyOtpPage() {
     return (
         <>
             <Header logoSize="large"/>
-            <div className='mt-60 flex flex-col items-center p-7 w-full text-justify'>
+            <div className='mt-20 flex flex-col items-center p-7 w-full text-justify'>
                 <input type="text" placeholder="Nhập Mã OTP" className="bg-blue-700 text-white placeholder:text-gray-200 border-2 border-black text-[25px] h-15 text-left placeholder:text-center placeholder:opacity-100 p-5 w-full"/>
                 <p className="font-bold text-[22px] p-2 mt-2">Xem thể lệ chương trình <a href="#" className="text-blue-600 underline">tại đây</a></p>
                 <UIButton 
