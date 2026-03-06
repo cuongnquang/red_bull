@@ -19,7 +19,7 @@ export default function TotalRewardsPage() {
                 </div>
                 <div className="w-30 h-30 bg-black">
                 </div>
-                <p className='text-[30px] p-5 text-center font-semibold text-blue-500'>CUNG CẤP MÃ QR CODE CHO PG ĐỂ ĐỔI THƯỞNG</p>
+                <p className='text-[25px] p-5 text-center font-semibold text-blue-500'>CUNG CẤP MÃ QR CODE CHO PG ĐỂ ĐỔI THƯỞNG</p>
                 <UIButton 
                 label="Xác nhận" 
                 onClick={handleAccept}
