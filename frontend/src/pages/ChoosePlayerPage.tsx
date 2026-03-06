@@ -18,7 +18,7 @@ export default function ChoosePlayerPage() {
     return (
         <>
         <Header logoSize="small"/>
-        <div className="mt-50 flex flex-col items-center gap-20">
+        <div className="mt-60 flex flex-col items-center gap-15">
             <button 
                 onClick={() => setSelectedOption("new")}
                 className={`text-white text-3xl py-2 px-4 border border-black rounded-[20px] w-60 h-21 ${
