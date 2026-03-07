@@ -44,7 +44,7 @@ export default function ChoosePlayerPage() {
                 onClick={handleContinue}
                 disabled={!selectedOption}
                 type="next"
-                className="mt-10"
+                className="mt-20"
             />
         </div>
         </>

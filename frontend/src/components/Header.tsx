@@ -10,7 +10,7 @@ export default function Header({ logoSize = "large" }: HeaderProps) {
   const textClass = logoSize === "small" ? "text-[4rem] " : "text-[5rem]";
   const heightClass = logoSize === "small" ? "" : "";
     return (
-        <header className={`text-white flex flex-col items-center mt-10 w-full bg-white ${heightClass}`}>
+        <header className={`text-white flex flex-col items-center w-full bg-white ${heightClass}`}>
             <img className={`${sizeClass} max-w-none object-cover`} src={logo} alt="Red Bull Logo"/>
             <p className={`${textClass} leading-none font-bold -mt-2 text-red-500`}>Red Bull</p>
         </header>
