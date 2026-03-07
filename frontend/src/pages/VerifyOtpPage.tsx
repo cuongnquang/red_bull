@@ -14,13 +14,13 @@ export default function VerifyOtpPage() {
         <>
             <Header logoSize="large"/>
             <div className='mt-20 flex flex-col items-center p-7 w-full text-justify'>
-                <input type="text" placeholder="Nhập Mã OTP" className="bg-blue-700 text-white placeholder:text-gray-200 border-2 border-black text-[25px] h-15 text-left placeholder:text-center placeholder:opacity-100 p-5 w-full"/>
-                <p className="font-bold text-[22px] p-2 mt-2">Xem thể lệ chương trình <a href="#" className="text-blue-600 underline">tại đây</a></p>
+                <input type="text" placeholder="Nhập Mã OTP" className="bg-blue-700 text-white placeholder:text-gray-200 border-2 border-black text-[1.2rem] h-[4rem] text-left placeholder:text-center placeholder:opacity-100 p-5 w-full"/>
+                <p className="font-semibold text-[1.4rem] p-2 mt-2">Xem thể lệ chương trình <a href="#" className="text-blue-600 underline">tại đây</a></p>
                 <UIButton 
                     label="Xác nhận" 
                     onClick={handleAccept}
                     type="next"
-                    className="mt-30"
+                    className="mt-10"
                 />
                 <UIButton 
                     label="Quay trở lại" 
