@@ -11,14 +11,14 @@ export default function SpinWheelPage() {
     return (
         <>
         <Header logoSize="small"/>
-        <div className="flex flex-col mt-5 gap-5 items-center">
-            <p className="text-2xl font-bold text-blue-500">BẠN CÓ <span className="text-green-400">1</span> LƯỢT QUAY</p>
+        <div className="flex flex-col mt-15 gap-5 items-center">
+            <p className="text-[1.5rem] font-bold text-blue-500">BẠN CÓ <span className="text-green-400">1</span> LƯỢT QUAY</p>
             <CSpinWheel />
             <UIButton 
                 label="Tiếp tục" 
                 onClick={handleSpinWheel}
                 type="next"
-                className="mt-10"
+                className="mt-5 mb-10"
             />
         </div>
         </>    

@@ -21,7 +21,7 @@ export default function ChoosePlayerPage() {
         <div className="mt-20 flex flex-col items-center gap-15">
             <button 
                 onClick={() => setSelectedOption("new")}
-                className={`text-white text-3xl py-2 px-4 border border-black rounded-[20px] w-60 h-21 ${
+                className={`text-white text-[1.8rem] py-2 px-4 border border-black rounded-[10px] w-[30vh] h-[25vw] ${
                     selectedOption === "new" 
                         ? "bg-green-900" 
                         : "bg-green-700 hover:bg-green-700"
@@ -31,7 +31,7 @@ export default function ChoosePlayerPage() {
             </button>
             <button 
                 onClick={() => setSelectedOption("existing")}
-                className={`text-white text-3xl py-2 px-4 border border-black rounded-[20px] w-60 h-21 ${
+                className={`text-white text-[1.8rem] py-2 px-4 border border-black rounded-[10px] w-[30vh] h-[25vw]  ${
                     selectedOption === "existing" 
                         ? "bg-green-900" 
                         : "bg-green-700 hover:bg-green-700"
@@ -44,7 +44,7 @@ export default function ChoosePlayerPage() {
                 onClick={handleContinue}
                 disabled={!selectedOption}
                 type="next"
-                className="mt-30"
+                className="mt-10"
             />
         </div>
         </>
