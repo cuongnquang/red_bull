@@ -19,7 +19,7 @@ export default function GamePage() {
                 <p className="text-[2rem] text-center">Mã hành trình</p>
                 <p className="text-[2rem] text-center font-bold">123456</p>
             </div>
-            <QR value="https://example.com" size='large'/>
+            <QR value="https://www.facebook.com/profile.php?id=100057433429427" size='large'/>
             
             <div className="flex flex-row gap-5">
                 <div className="w-[20vw] h-[10vh] ">

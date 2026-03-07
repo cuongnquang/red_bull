@@ -7,7 +7,7 @@ interface HeaderProps {
 
 export default function Header({ logoSize = "large" }: HeaderProps) {
   const sizeClass = logoSize === "small" ? "w-[100vw] h-[15vh]" : "w-[130vw] h-[20vh]";
-  const textClass = logoSize === "small" ? "text-[4rem] " : "text-[5rem]";
+  const textClass = logoSize === "small" ? "text-[4rem] " : "text-[6rem]";
   const heightClass = logoSize === "small" ? "" : "";
     return (
         <header className={`text-white flex flex-col items-center w-full bg-white ${heightClass}`}>
