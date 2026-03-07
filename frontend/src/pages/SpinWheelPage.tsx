@@ -11,7 +11,7 @@ export default function SpinWheelPage() {
     return (
         <>
         <Header logoSize="small"/>
-        <div className="flex flex-col mt-15 gap-5 items-center">
+        <div className="flex flex-col mt-5 gap-5 items-center">
             <p className="text-[1.5rem] font-bold text-blue-500">BẠN CÓ <span className="text-green-400">1</span> LƯỢT QUAY</p>
             <CSpinWheel />
             <UIButton 

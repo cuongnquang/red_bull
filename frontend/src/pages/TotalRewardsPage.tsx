@@ -11,12 +11,12 @@ export default function TotalRewardsPage() {
     return (
         <>
             <Header logoSize="small"/>
-            <div className="mt-15 flex flex-col gap-5 items-center">
-                <p className="text-center text-[25px] font-bold text-blue-500 ">CHÚC MỪNG <br />BẠN NHẬN ĐƯỢC</p>
-                <div className="w-full px-10 flex flex-col">
-                    <p className="text-[25px] w-full">LON REDBULL x <a className="text-blue-500">1 </a></p>
-                    <p className="text-[25px] w-full">LON REDBULL x <a className="text-blue-500">1 </a></p>
-                    <p className="text-[25px] w-full">LON REDBULL x <a className="text-blue-500">1 </a></p>
+            <div className="mt-5 flex flex-col gap-5 items-center">
+                <p className="text-center text-[1.8rem] font-bold text-blue-500 ">CHÚC MỪNG <br />BẠN NHẬN ĐƯỢC</p>
+                <div className="w-full pr-10 px-10 flex flex-col">
+                    <p className="text-[1.5rem] w-full">LON REDBULL x <a className="text-blue-500">1 </a></p>
+                    <p className="text-[1.5rem] w-full">LON REDBULL x <a className="text-blue-500">1 </a></p>
+                    <p className="text-[1.5rem] w-full">LON REDBULL x <a className="text-blue-500">1 </a></p>
                 </div>
                 <QR value="https://example.com" size='small'/>
                 <p className='text-[1.5rem] ml-7 mr-7 text-center font-semibold text-blue-500'>CUNG CẤP MÃ QR CODE CHO PG ĐỂ ĐỔI THƯỞNG</p>
