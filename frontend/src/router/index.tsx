@@ -16,6 +16,7 @@ import AllGiftPage from '../pages/pg/AllGiftPage';
 import GiftPage from '../pages/pg/GiftPage';
 import HistoryPage from '../pages/pg/HistoryPage';
 import SaveImagePage from '../pages/pg/SaveImage';
+import ProtectedRoute from '../components/ProtectedRoute';
 
 const AppRouter = () => {
   return (
@@ -30,13 +31,13 @@ const AppRouter = () => {
       <Route path="/lucky-spin-result" element={<PrizeResultPage />} />
       <Route path='/total-rewards' element={<TotalRewardsPage />} />
       <Route path='/login' element={<LoginPage/>}/>
-      <Route path='/pg-game' element={<PGGamePage/>}/>
-      <Route path='/scan-qr' element={<ScanQRPage/>}/>
-      <Route path='/result-game' element={<ResultGamePage/>}/>
-      <Route path='/all-gift' element={<AllGiftPage/>}/>
-      <Route path='/gift' element={<GiftPage/>}/>
-      <Route path='/history' element={<HistoryPage/>}/>
-      <Route path='/save-image' element={<SaveImagePage/>}/>
+      <Route path='/pg-game' element={<ProtectedRoute><PGGamePage/></ProtectedRoute>}/>
+      <Route path='/scan-qr' element={<ProtectedRoute><ScanQRPage/></ProtectedRoute>}/>
+      <Route path='/result-game' element={<ProtectedRoute><ResultGamePage/></ProtectedRoute>}/>
+      <Route path='/all-gift' element={<ProtectedRoute><AllGiftPage/></ProtectedRoute>}/>
+      <Route path='/gift' element={<ProtectedRoute><GiftPage/></ProtectedRoute>}/>
+      <Route path='/history' element={<ProtectedRoute><HistoryPage/></ProtectedRoute>}/>
+      <Route path='/save-image' element={<ProtectedRoute><SaveImagePage/></ProtectedRoute>}/>
     </Routes>
   );
 };

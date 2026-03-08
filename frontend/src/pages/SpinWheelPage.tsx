@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import Header from "../components/Header";
 import UIButton from "../components/UIButton";
 import CSpinWheel from "../components/CSpinWheel";
+// import SpinWheel from "../components/SpinWheel";
 
 export default function SpinWheelPage() {
     const navigate = useNavigate();
