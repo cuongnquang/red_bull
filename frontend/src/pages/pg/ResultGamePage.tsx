@@ -10,9 +10,9 @@ export default function ResultGamePage() {
     const navigate = useNavigate();
     const handleContinue = () => {
         if (selectedOption === "done") {
-            navigate("/pg-game");
+            navigate("/pg/pg-game");
         } else if (selectedOption === "restart") {
-            navigate("/pg-game");
+            navigate("/pg/pg-game");
         }
     }
     return (

@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 export default function PGGamePage(){
     const navigate = useNavigate();
     const handleScan = () => {
-        navigate("/scan-qr");
+        navigate("/pg/scan-qr");
     }
     return(
         <>

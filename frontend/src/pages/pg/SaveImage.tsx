@@ -5,7 +5,7 @@ import UIButton from "../../components/UIButton";
 export default function SaveImagePage(){
     const navigate = useNavigate();
     const handleSaveImage = () => {
-        navigate('/gift');
+        navigate('/pg/gift');
     }
     return(
         <>

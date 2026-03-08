@@ -5,7 +5,7 @@ import UIButton from "../../components/UIButton";
 export default function HistoryPage() {
     const navigate = useNavigate();
     const handleAccept = () =>{
-        navigate('/gift')
+        navigate('/pg/gift')
     }
     return (
         <>

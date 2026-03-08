@@ -8,7 +8,7 @@ import PrizeResultPage from '../pages/LuckySpinResultPage';
 import SpinWheelPage from '../pages/SpinWheelPage';
 import VerifyOtpPage from '../pages/VerifyOtpPage';
 import TotalRewardsPage from '../pages/TotalRewardsPage';
-import LoginPage from '../pages/pg/LoginPage';
+import LoginPage from '../pages/LoginPage';
 import PGGamePage from '../pages/pg/PGGamePage';
 import ScanQRPage from '../pages/pg/ScanQRPage';
 import ResultGamePage from '../pages/pg/ResultGamePage';
@@ -31,13 +31,13 @@ const AppRouter = () => {
       <Route path="/lucky-spin-result" element={<PrizeResultPage />} />
       <Route path='/total-rewards' element={<TotalRewardsPage />} />
       <Route path='/login' element={<LoginPage/>}/>
-      <Route path='/pg-game' element={<ProtectedRoute><PGGamePage/></ProtectedRoute>}/>
-      <Route path='/scan-qr' element={<ProtectedRoute><ScanQRPage/></ProtectedRoute>}/>
-      <Route path='/result-game' element={<ProtectedRoute><ResultGamePage/></ProtectedRoute>}/>
-      <Route path='/all-gift' element={<ProtectedRoute><AllGiftPage/></ProtectedRoute>}/>
-      <Route path='/gift' element={<ProtectedRoute><GiftPage/></ProtectedRoute>}/>
-      <Route path='/history' element={<ProtectedRoute><HistoryPage/></ProtectedRoute>}/>
-      <Route path='/save-image' element={<ProtectedRoute><SaveImagePage/></ProtectedRoute>}/>
+      <Route path='/pg/pg-game' element={<ProtectedRoute><PGGamePage/></ProtectedRoute>}/>
+      <Route path='/pg/scan-qr' element={<ProtectedRoute><ScanQRPage/></ProtectedRoute>}/>
+      <Route path='/pg/result-game' element={<ProtectedRoute><ResultGamePage/></ProtectedRoute>}/>
+      <Route path='/pg/all-gift' element={<ProtectedRoute><AllGiftPage/></ProtectedRoute>}/>
+      <Route path='/pg/gift' element={<ProtectedRoute><GiftPage/></ProtectedRoute>}/>
+      <Route path='/pg/history' element={<ProtectedRoute><HistoryPage/></ProtectedRoute>}/>
+      <Route path='/pg/save-image' element={<ProtectedRoute><SaveImagePage/></ProtectedRoute>}/>
     </Routes>
   );
 };

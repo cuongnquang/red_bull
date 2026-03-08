@@ -10,12 +10,12 @@ export default function GiftPage() {
      const [selectedOption, setSelectedOption] = useState<string | null>(null);
         const handleAccept = () => {
         if (selectedOption === "camera") {
-            navigate("/save-image");
+            navigate("/pg/save-image");
         } else if (selectedOption === "history") {
-            navigate("/history");
+            navigate("/pg/history");
         }
         else {
-            navigate("/pg-game")
+            navigate("/pg/pg-game")
         }
     };
     return(

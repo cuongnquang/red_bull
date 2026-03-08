@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { toast } from "sonner";
-import Header from "../../components/Header";
-import UIButton from "../../components/UIButton";
+import Header from "../components/Header";
+import UIButton from "../components/UIButton";
 
 export default function LoginPage(){
     const navigate = useNavigate();
